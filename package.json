@@ -38,14 +38,17 @@
   "dependencies": {
     "@stdlib/array": "github:stdlib-js/array#main",
     "@stdlib/assert": "github:stdlib-js/assert#main",
+    "@stdlib/math": "github:stdlib-js/math#main",
     "@stdlib/ndarray": "github:stdlib-js/ndarray#main",
     "@stdlib/object": "github:stdlib-js/object#main",
     "@stdlib/strided": "github:stdlib-js/strided#main",
+    "@stdlib/string": "github:stdlib-js/string#main",
     "@stdlib/types": "github:stdlib-js/types#main",
     "@stdlib/utils": "github:stdlib-js/utils#main"
   },
   "devDependencies": {
     "@stdlib/bench": "github:stdlib-js/bench#main",
+    "@stdlib/complex": "github:stdlib-js/complex#main",
     "proxyquire": "^2.0.0",
     "tape": "git+https://github.com/kgryte/tape.git#fix/globby",
     "istanbul": "^0.4.1",

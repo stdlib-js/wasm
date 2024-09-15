@@ -20,6 +20,7 @@
 
 ##### Features
 
+-   [`34143ca`](https://github.com/stdlib-js/stdlib/commit/34143ca1593005de81ef30c9a48dc476a63c31b5) - add `ModuleWrapper` to namespace
 -   [`7ea0700`](https://github.com/stdlib-js/stdlib/commit/7ea0700f3f0d873e5d7d65a7f5585169d7854c83) - add `base` to namespace
 -   [`cf538c1`](https://github.com/stdlib-js/stdlib/commit/cf538c16dc5717bf1865148442ca1f30f93bb258) - add namespace
 
@@ -43,6 +44,7 @@
 
 ##### Features
 
+-   [`db91373`](https://github.com/stdlib-js/stdlib/commit/db91373ac57c11965c341e4d802aed5ee3e470bd) - add `strided2object` to namespace
 -   [`0d49560`](https://github.com/stdlib-js/stdlib/commit/0d49560dc69e5baa1e154ef5246ced6689d8fbff) - add `wasm/base` namespace
 
 </section>
@@ -131,6 +133,28 @@
 
 <!-- /.package -->
 
+<section class="package" id="wasm-base-strided2object-unreleased">
+
+#### [@stdlib/wasm/base/strided2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/strided2object)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`ca7b037`](https://github.com/stdlib-js/stdlib/commit/ca7b0375bac4ab292d93081e94e8e51a637ba64d) - add `wasm/base/strided2object`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
 <section class="package" id="wasm-memory-unreleased">
 
 #### [@stdlib/wasm/memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/memory)
@@ -142,6 +166,28 @@
 ##### Features
 
 -   [`67ac388`](https://github.com/stdlib-js/stdlib/commit/67ac38817706780d7e842aa71482ca5e3f585572) - add `wasm/memory`
+
+</section>
+
+<!-- /.features -->
+
+</details>
+
+</section>
+
+<!-- /.package -->
+
+<section class="package" id="wasm-module-wrapper-unreleased">
+
+#### [@stdlib/wasm/module-wrapper](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/module-wrapper)
+
+<details>
+
+<section class="features">
+
+##### Features
+
+-   [`e7508aa`](https://github.com/stdlib-js/stdlib/commit/e7508aa936ebfd9e70f0b80e19a7da76d2c0515f) - add a WIP `wasm/module-wrapper` package
 
 </section>
 
@@ -175,6 +221,10 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`db91373`](https://github.com/stdlib-js/stdlib/commit/db91373ac57c11965c341e4d802aed5ee3e470bd) - **feat:** add `strided2object` to namespace _(by Athan Reines)_
+-   [`ca7b037`](https://github.com/stdlib-js/stdlib/commit/ca7b0375bac4ab292d93081e94e8e51a637ba64d) - **feat:** add `wasm/base/strided2object` _(by Athan Reines)_
+-   [`34143ca`](https://github.com/stdlib-js/stdlib/commit/34143ca1593005de81ef30c9a48dc476a63c31b5) - **feat:** add `ModuleWrapper` to namespace _(by Athan Reines)_
+-   [`e7508aa`](https://github.com/stdlib-js/stdlib/commit/e7508aa936ebfd9e70f0b80e19a7da76d2c0515f) - **feat:** add a WIP `wasm/module-wrapper` package _(by Athan Reines)_
 -   [`33c18e1`](https://github.com/stdlib-js/stdlib/commit/33c18e1e7db1d1031acb9d3a5d085238d7f8c4ca) - **docs:** fix examples _(by Athan Reines)_
 -   [`7ea0700`](https://github.com/stdlib-js/stdlib/commit/7ea0700f3f0d873e5d7d65a7f5585169d7854c83) - **feat:** add `base` to namespace _(by Athan Reines)_
 -   [`0d49560`](https://github.com/stdlib-js/stdlib/commit/0d49560dc69e5baa1e154ef5246ced6689d8fbff) - **feat:** add `wasm/base` namespace _(by Athan Reines)_

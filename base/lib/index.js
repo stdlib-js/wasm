@@ -63,6 +63,15 @@ setReadOnly( ns, 'arrays2ptrs', require( './../../base/arrays2ptrs' ) );
 */
 setReadOnly( ns, 'dtype2wasm', require( './../../base/dtype2wasm' ) );
 
+/**
+* @name strided2object
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/wasm/base/strided2object}
+*/
+setReadOnly( ns, 'strided2object', require( './../../base/strided2object' ) );
+
 
 // EXPORTS //
 
