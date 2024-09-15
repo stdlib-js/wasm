@@ -175,6 +175,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`33c18e1`](https://github.com/stdlib-js/stdlib/commit/33c18e1e7db1d1031acb9d3a5d085238d7f8c4ca) - **docs:** fix examples _(by Athan Reines)_
 -   [`7ea0700`](https://github.com/stdlib-js/stdlib/commit/7ea0700f3f0d873e5d7d65a7f5585169d7854c83) - **feat:** add `base` to namespace _(by Athan Reines)_
 -   [`0d49560`](https://github.com/stdlib-js/stdlib/commit/0d49560dc69e5baa1e154ef5246ced6689d8fbff) - **feat:** add `wasm/base` namespace _(by Athan Reines)_
 -   [`be28c74`](https://github.com/stdlib-js/stdlib/commit/be28c74db2fee7929fbaa01487d615f860be645b) - **feat:** add `wasm/base/arrays2ptrs` _(by Athan Reines)_
