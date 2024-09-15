@@ -18,43 +18,31 @@
 
 'use strict';
 
-/*
-* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
+var TABLE = require( './table.json' );
 
 
 // MAIN //
 
 /**
-* Top-level namespace.
+* Returns the WebAssembly data type associated with a provided array data type value.
 *
-* @namespace ns
+* @param {string} dtype - array data type
+* @returns {string} WebAssembly data type
+*
+* @example
+* var out = dtype2wasm( 'float64' );
+* // returns 'float64'
+*
+* out = dtype2wasm( 'generic' );
+* // returns 'float64'
 */
-var ns = {};
-
-/**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name Memory
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
-*/
-setReadOnly( ns, 'Memory', require( './../memory' ) );
+function dtype2wasm( dtype ) {
+	return TABLE[ dtype ] || 'float64';
+}
 
 
 // EXPORTS //
 
-module.exports = ns;
+module.exports = dtype2wasm;

@@ -18,43 +18,45 @@
 
 'use strict';
 
-/*
-* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
+var bench = require( '@stdlib/bench' );
+var pkg = require( './../package.json' ).name;
+var dtype2wasm = require( './../lib' );
 
 
 // MAIN //
 
-/**
-* Top-level namespace.
-*
-* @namespace ns
-*/
-var ns = {};
+bench( pkg, function benchmark( b ) {
+	var dtypes;
+	var out;
+	var i;
 
-/**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
+	dtypes = [
+		'float64',
+		'float32',
+		'int8',
+		'uint8',
+		'int16',
+		'uint16',
+		'int32',
+		'uint32',
 
-/**
-* @name Memory
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
-*/
-setReadOnly( ns, 'Memory', require( './../memory' ) );
+		'generic',
+		'uint8c'
+	];
 
-
-// EXPORTS //
-
-module.exports = ns;
+	b.tic();
+	for ( i = 0; i < b.iterations; i++ ) {
+		out = dtype2wasm( dtypes[ i%dtypes.length ] );
+		if ( typeof out !== 'string' ) {
+			b.fail( 'should return a string' );
+		}
+	}
+	b.toc();
+	if ( typeof out !== 'string' ) {
+		b.fail( 'should return a string' );
+	}
+	b.pass( 'benchmark finished' );
+	b.end();
+});

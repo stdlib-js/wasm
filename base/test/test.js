@@ -18,43 +18,23 @@
 
 'use strict';
 
-/*
-* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
-*/
-
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
+var tape = require( 'tape' );
+var objectKeys = require( '@stdlib/utils/keys' );
+var ns = require( './../lib' );
 
 
-// MAIN //
+// TESTS //
 
-/**
-* Top-level namespace.
-*
-* @namespace ns
-*/
-var ns = {};
+tape( 'main export is an object', function test( t ) {
+	t.ok( true, __filename );
+	t.strictEqual( typeof ns, 'object', 'main export is an object' );
+	t.end();
+});
 
-/**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name Memory
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
-*/
-setReadOnly( ns, 'Memory', require( './../memory' ) );
-
-
-// EXPORTS //
-
-module.exports = ns;
+tape( 'the exported object contains key-value pairs', function test( t ) {
+	var keys = objectKeys( ns );
+	t.equal( keys.length > 0, true, 'has keys' );
+	t.end();
+});

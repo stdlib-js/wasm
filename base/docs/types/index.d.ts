@@ -1,4 +1,4 @@
-/**
+/*
 * @license Apache-2.0
 *
 * Copyright (c) 2024 The Stdlib Authors.
@@ -16,45 +16,28 @@
 * limitations under the License.
 */
 
-'use strict';
+// TypeScript Version: 4.1
 
-/*
-* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
-*/
+/* eslint-disable max-lines */
 
-// MODULES //
-
-var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
-
-
-// MAIN //
+import array2dtype = require( './../../../base/array2dtype' );
 
 /**
-* Top-level namespace.
-*
-* @namespace ns
+* Interface describing the namespace.
 */
-var ns = {};
+interface Namespace {
+	/**
+	* TODO.
+	*/
+	array2dtype: typeof array2dtype;
+}
 
 /**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
+* WebAssembly "base" utilities.
 */
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name Memory
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
-*/
-setReadOnly( ns, 'Memory', require( './../memory' ) );
+declare var ns: Namespace;
 
 
 // EXPORTS //
 
-module.exports = ns;
+export = ns;

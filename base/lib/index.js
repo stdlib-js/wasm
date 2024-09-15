@@ -37,22 +37,31 @@ var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
 var ns = {};
 
 /**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name Memory
+* @name array2dtype
 * @memberof ns
 * @readonly
 * @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
+* @see {@link module:@stdlib/wasm/base/array2dtype}
 */
-setReadOnly( ns, 'Memory', require( './../memory' ) );
+setReadOnly( ns, 'array2dtype', require( './../../base/array2dtype' ) );
+
+/**
+* @name arrays2ptrs
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/wasm/base/arrays2ptrs}
+*/
+setReadOnly( ns, 'arrays2ptrs', require( './../../base/arrays2ptrs' ) );
+
+/**
+* @name dtype2wasm
+* @memberof ns
+* @readonly
+* @type {Function}
+* @see {@link module:@stdlib/wasm/base/dtype2wasm}
+*/
+setReadOnly( ns, 'dtype2wasm', require( './../../base/dtype2wasm' ) );
 
 
 // EXPORTS //

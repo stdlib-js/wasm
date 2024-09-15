@@ -18,43 +18,29 @@
 
 'use strict';
 
-/*
-* When adding modules to the namespace, ensure that they are added in alphabetical order according to module name.
+/**
+* Return the WebAssembly data type for a provided array.
+*
+* @module @stdlib/wasm/base/array2dtype
+*
+* @example
+* var Float64Array = require( '@stdlib/array/float64' );
+* var array2dtype = require( '@stdlib/wasm/base/array2dtype' );
+*
+* var arr = new Float64Array( 10 );
+*
+* var dt = array2dtype( arr );
+* // returns 'float64'
+*
+* dt = array2dtype( [] );
+* // returns 'float64'
 */
 
 // MODULES //
 
-var setReadOnly = require( '@stdlib/utils/define-read-only-property' );
-
-
-// MAIN //
-
-/**
-* Top-level namespace.
-*
-* @namespace ns
-*/
-var ns = {};
-
-/**
-* @name base
-* @memberof ns
-* @readonly
-* @type {Namespace}
-* @see {@link module:@stdlib/wasm/base}
-*/
-setReadOnly( ns, 'base', require( './../base' ) );
-
-/**
-* @name Memory
-* @memberof ns
-* @readonly
-* @type {Function}
-* @see {@link module:@stdlib/wasm/memory}
-*/
-setReadOnly( ns, 'Memory', require( './../memory' ) );
+var main = require( './main.js' );
 
 
 // EXPORTS //
 
-module.exports = ns;
+module.exports = main;
