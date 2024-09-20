@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-18)
+## Unreleased (2024-09-20)
 
 <section class="packages">
 
@@ -221,6 +221,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`def5eab`](https://github.com/stdlib-js/stdlib/commit/def5eaba7c0d2282113808ab202f60261f5fc2e5) - **docs:** fix description _(by Athan Reines)_
 -   [`9f848ed`](https://github.com/stdlib-js/stdlib/commit/9f848eddcab5807198387a9a9b8ca0c122e2cfb7) - **docs:** rename parameter _(by Athan Reines)_
 -   [`799e2b9`](https://github.com/stdlib-js/stdlib/commit/799e2b9de0b7c054c2c9a96a5040aa5ab30c2c21) - **style:** remove empty line _(by Athan Reines)_
 -   [`7d73b4c`](https://github.com/stdlib-js/stdlib/commit/7d73b4cd92b702acdd4aeaf015a8e4a687133f54) - **test:** fix index _(by Athan Reines)_
