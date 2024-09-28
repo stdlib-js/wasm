@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2024-09-20)
+## Unreleased (2024-09-28)
 
 <section class="packages">
 
@@ -207,9 +207,10 @@
 
 ### Contributors
 
-A total of 1 person contributed to this release. Thank you to this contributor:
+A total of 2 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
+-   Philipp Burckhardt
 
 </section>
 
@@ -221,6 +222,7 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 
 <details>
 
+-   [`ff9fa81`](https://github.com/stdlib-js/stdlib/commit/ff9fa81f917d539f1a11fba5580e1744991a8a11) - **docs:** fix TSDoc lint errors _(by Philipp Burckhardt)_
 -   [`def5eab`](https://github.com/stdlib-js/stdlib/commit/def5eaba7c0d2282113808ab202f60261f5fc2e5) - **docs:** fix description _(by Athan Reines)_
 -   [`9f848ed`](https://github.com/stdlib-js/stdlib/commit/9f848eddcab5807198387a9a9b8ca0c122e2cfb7) - **docs:** rename parameter _(by Athan Reines)_
 -   [`799e2b9`](https://github.com/stdlib-js/stdlib/commit/799e2b9de0b7c054c2c9a96a5040aa5ab30c2c21) - **style:** remove empty line _(by Athan Reines)_
