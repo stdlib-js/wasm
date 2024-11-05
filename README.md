@@ -42,13 +42,18 @@ limitations under the License.
 ## Usage
 
 ```javascript
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
+```
+The previous example will load the latest bundled code from the esm branch. Alternatively, you may load a specific version by loading the file from one of the [tagged bundles](https://github.com/stdlib-js/wasm/tags). For example,
+
+```javascript
 import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@v0.1.0-esm/index.mjs';
 ```
 
 You can also import the following named exports from the package:
 
 ```javascript
-import { Memory, ModuleWrapper, base } from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@v0.1.0-esm/index.mjs';
+import { Memory, ModuleWrapper, base } from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
 ```
 
 #### ns
@@ -85,7 +90,7 @@ The namespace contains the following:
 <script type="module">
 
 import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@v0.1.0-esm/index.mjs';
+import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
 
 console.log( objectKeys( ns ) );
 
