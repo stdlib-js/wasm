@@ -2,6 +2,16 @@
 
 > Package changelog.
 
+<section class="release" id="v0.1.1">
+
+## 0.1.1 (2024-11-05)
+
+No changes reported for this release.
+
+</section>
+
+<!-- /.release -->
+
 <section class="release" id="v0.1.0">
 
 ## 0.1.0 (2024-11-05)
@@ -10,7 +20,7 @@
 
 ### Packages
 
-<section class="package" id="wasm-unreleased">
+<section class="package" id="wasm-v0.1.0">
 
 #### [@stdlib/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm)
 
@@ -34,7 +44,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-base-unreleased">
+<section class="package" id="wasm-base-v0.1.0">
 
 #### [@stdlib/wasm/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base)
 
@@ -57,7 +67,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-base-array2dtype-unreleased">
+<section class="package" id="wasm-base-array2dtype-v0.1.0">
 
 #### [@stdlib/wasm/base/array2dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/array2dtype)
 
@@ -89,7 +99,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-base-arrays2ptrs-unreleased">
+<section class="package" id="wasm-base-arrays2ptrs-v0.1.0">
 
 #### [@stdlib/wasm/base/arrays2ptrs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/arrays2ptrs)
 
@@ -111,7 +121,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-base-dtype2wasm-unreleased">
+<section class="package" id="wasm-base-dtype2wasm-v0.1.0">
 
 #### [@stdlib/wasm/base/dtype2wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/dtype2wasm)
 
@@ -133,7 +143,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-base-strided2object-unreleased">
+<section class="package" id="wasm-base-strided2object-v0.1.0">
 
 #### [@stdlib/wasm/base/strided2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/strided2object)
 
@@ -155,7 +165,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-memory-unreleased">
+<section class="package" id="wasm-memory-v0.1.0">
 
 #### [@stdlib/wasm/memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/memory)
 
@@ -177,7 +187,7 @@
 
 <!-- /.package -->
 
-<section class="package" id="wasm-module-wrapper-unreleased">
+<section class="package" id="wasm-module-wrapper-v0.1.0">
 
 #### [@stdlib/wasm/module-wrapper](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/module-wrapper)
 
