@@ -76,6 +76,14 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`base`][@stdlib/wasm/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) WebAssembly utility namespace.</span>
+-   <span class="signature">[`Memory( descriptor )`][@stdlib/wasm/memory]</span><span class="delimiter">: </span><span class="description">webAssembly memory constructor.</span>
+-   <span class="signature">[`ModuleWrapper( binary, memory[, imports] )`][@stdlib/wasm/module-wrapper]</span><span class="delimiter">: </span><span class="description">webAssembly module wrapper.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -182,6 +190,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/wasm/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/wasm/base]: https://github.com/stdlib-js/wasm/tree/main/base
+
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm/tree/main/memory
+
+[@stdlib/wasm/module-wrapper]: https://github.com/stdlib-js/wasm/tree/main/module-wrapper
 
 <!-- </toc-links> -->
 
