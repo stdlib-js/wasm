@@ -35,20 +35,32 @@ limitations under the License.
 
 > WebAssembly namespace.
 
+<section class="installation">
 
+## Installation
+
+```bash
+npm install @stdlib/wasm
+```
+
+Alternatively,
+
+-   To load the package in a website via a `script` tag without installation and bundlers, use the [ES Module][es-module] available on the [`esm`][esm-url] branch (see [README][esm-readme]).
+-   If you are using Deno, visit the [`deno`][deno-url] branch (see [README][deno-readme] for usage intructions).
+-   For use in Observable, or in browser/node environments, use the [Universal Module Definition (UMD)][umd] build available on the [`umd`][umd-url] branch (see [README][umd-readme]).
+
+The [branches.md][branches-url] file summarizes the available branches and displays a diagram illustrating their relationships.
+
+To view installation and usage instructions specific to each branch build, be sure to explicitly navigate to the respective README files on each branch, as linked to above.
+
+</section>
 
 <section class="usage">
 
 ## Usage
 
 ```javascript
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
-```
-
-You can also import the following named exports from the package:
-
-```javascript
-import { Memory, ModuleWrapper, base } from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
+var ns = require( '@stdlib/wasm' );
 ```
 
 #### ns
@@ -64,6 +76,14 @@ The namespace contains the following:
 
 <!-- <toc pattern="*"> -->
 
+<div class="namespace-toc">
+
+-   <span class="signature">[`base`][@stdlib/wasm/base]</span><span class="delimiter">: </span><span class="description">base (i.e., lower-level) WebAssembly utility namespace.</span>
+-   <span class="signature">[`Memory( descriptor )`][@stdlib/wasm/memory]</span><span class="delimiter">: </span><span class="description">webAssembly memory constructor.</span>
+-   <span class="signature">[`ModuleWrapper( binary, memory[, imports] )`][@stdlib/wasm/module-wrapper]</span><span class="delimiter">: </span><span class="description">webAssembly module wrapper.</span>
+
+</div>
+
 <!-- </toc> -->
 
 </section>
@@ -78,20 +98,11 @@ The namespace contains the following:
 
 <!-- eslint no-undef: "error" -->
 
-```html
-<!DOCTYPE html>
-<html lang="en">
-<body>
-<script type="module">
-
-import objectKeys from 'https://cdn.jsdelivr.net/gh/stdlib-js/utils/keys@esm/index.mjs';
-import ns from 'https://cdn.jsdelivr.net/gh/stdlib-js/wasm@esm/index.mjs';
+```javascript
+var objectKeys = require( '@stdlib/utils/keys' );
+var ns = require( '@stdlib/wasm' );
 
 console.log( objectKeys( ns ) );
-
-</script>
-</body>
-</html>
 ```
 
 </section>
@@ -115,7 +126,7 @@ console.log( objectKeys( ns ) );
 
 ## Notice
 
-This package is part of [stdlib][stdlib], a standard library with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
+This package is part of [stdlib][stdlib], a standard library for JavaScript and Node.js, with an emphasis on numerical and scientific computing. The library provides a collection of robust, high performance libraries for mathematics, statistics, streams, utilities, and more.
 
 For more information on the project, filing bug reports and feature requests, and guidance on how to develop [stdlib][stdlib], see the main project [repository][stdlib].
 
@@ -179,6 +190,12 @@ Copyright &copy; 2016-2024. The Stdlib [Authors][stdlib-authors].
 [stdlib-license]: https://raw.githubusercontent.com/stdlib-js/wasm/main/LICENSE
 
 <!-- <toc-links> -->
+
+[@stdlib/wasm/base]: https://github.com/stdlib-js/wasm/tree/main/base
+
+[@stdlib/wasm/memory]: https://github.com/stdlib-js/wasm/tree/main/memory
+
+[@stdlib/wasm/module-wrapper]: https://github.com/stdlib-js/wasm/tree/main/module-wrapper
 
 <!-- </toc-links> -->
 
