@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,24 @@
 * limitations under the License.
 */
 
-/* eslint-disable @typescript-eslint/no-unused-expressions */
+'use strict';
 
-import Memory = require( './index' );
+/**
+* Absolute file path for the directory containing TypeScript declarations.
+*
+* @module @stdlib/wasm/types
+*
+* @example
+* var dir = require( '@stdlib/wasm/types' );
+*
+* console.log( dir );
+*/
+
+// MODULES //
+
+var main = require( './main.js' );
 
 
-// TESTS //
+// EXPORTS //
 
-// The function returns a memory instance...
-{
-	new Memory( { 'initial': 0 } ); // $ExpectType Memory
-}
-
-// The constructor function has to be invoked with the `new` operator...
-{
-	Memory( { 'initial': 0 } ); // $ExpectError
-}
+module.exports = main;

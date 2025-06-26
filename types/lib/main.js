@@ -1,7 +1,7 @@
-/*
+/**
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,25 @@
 * limitations under the License.
 */
 
-/* eslint-disable @typescript-eslint/no-unused-expressions */
+'use strict';
 
-import Memory = require( './index' );
+// MODULES //
+
+var resolve = require( 'path' ).resolve;
 
 
-// TESTS //
+// MAIN //
 
-// The function returns a memory instance...
-{
-	new Memory( { 'initial': 0 } ); // $ExpectType Memory
-}
+/**
+* Absolute file path for the directory containing type declarations.
+*
+* @name dir
+* @constant
+* @type {string}
+*/
+var dir = resolve( __dirname, '..' );
 
-// The constructor function has to be invoked with the `new` operator...
-{
-	Memory( { 'initial': 0 } ); // $ExpectError
-}
+
+// EXPORTS //
+
+module.exports = dir;

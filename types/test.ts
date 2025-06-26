@@ -1,7 +1,7 @@
 /*
 * @license Apache-2.0
 *
-* Copyright (c) 2024 The Stdlib Authors.
+* Copyright (c) 2025 The Stdlib Authors.
 *
 * Licensed under the Apache License, Version 2.0 (the "License");
 * you may not use this file except in compliance with the License.
@@ -16,19 +16,19 @@
 * limitations under the License.
 */
 
-/* eslint-disable @typescript-eslint/no-unused-expressions */
+/// <reference types="@stdlib/types"/>
 
-import Memory = require( './index' );
+import * as wasm from './../types';
 
 
 // TESTS //
 
-// The function returns a memory instance...
+// The compiler should not throw an error when using exported types...
 {
-	new Memory( { 'initial': 0 } ); // $ExpectType Memory
-}
-
-// The constructor function has to be invoked with the `new` operator...
-{
-	Memory( { 'initial': 0 } ); // $ExpectError
+	const mem: wasm.Memory = new WebAssembly.Memory({
+		'initial': 0
+	});
+	if ( mem !== mem ) {
+		throw new Error( 'something went wrong' );
+	}
 }

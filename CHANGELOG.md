@@ -4,83 +4,18 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-02-24)
-
-<section class="packages">
-
-### Packages
-
-<section class="package" id="wasm-unreleased">
-
-#### [@stdlib/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm)
-
-<details>
+## Unreleased (2025-06-26)
 
 <section class="features">
 
-##### Features
+### Features
 
+-   [`375104a`](https://github.com/stdlib-js/stdlib/commit/375104a14f1108d70a4c41972ed0502b84b5c124) - add `wasm/types`
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
 
 </section>
 
 <!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-unreleased">
-
-#### [@stdlib/wasm/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190)
-
-</section>
-
-<!-- /.features -->
-
-<section class="breaking-changes">
-
-##### BREAKING CHANGES
-
--   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec): update namespace declarations
-
-    -   To migrate, users should consult the corresponding packages containing the respective implementations to determine what is breaking. The primary breakages come from the `blas/*` namespace, where we recently refactored how top-level BLAS APIs operate on input arguments.
-
-</section>
-
-<!-- /.breaking-changes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
 
 <section class="breaking-changes">
 
@@ -94,24 +29,14 @@
 
 <!-- /.breaking-changes -->
 
-<section class="contributors">
-
-### Contributors
-
-A total of 1 person contributed to this release. Thank you to this contributor:
-
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
-
 <section class="commits">
 
 ### Commits
 
 <details>
 
+-   [`c1e2833`](https://github.com/stdlib-js/stdlib/commit/c1e28334d789719eb9910e66e5237ed526179747) - **refactor:** use types defined in `wasm/types` _(by Athan Reines)_
+-   [`375104a`](https://github.com/stdlib-js/stdlib/commit/375104a14f1108d70a4c41972ed0502b84b5c124) - **feat:** add `wasm/types` _(by Athan Reines)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
 -   [`8b1548f`](https://github.com/stdlib-js/stdlib/commit/8b1548fb45c1ff131f5edac20cb984344a2d28ec) - **feat:** update namespace TypeScript declarations [(#3190)](https://github.com/stdlib-js/stdlib/pull/3190) _(by stdlib-bot, Philipp Burckhardt)_
 
@@ -120,6 +45,19 @@ A total of 1 person contributed to this release. Thank you to this contributor:
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
@@ -139,68 +77,21 @@ No changes reported for this release.
 
 ## 0.1.0 (2024-11-05)
 
-<section class="packages">
-
-### Packages
-
-<section class="package" id="wasm-v0.1.0">
-
-#### [@stdlib/wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm)
-
-<details>
-
 <section class="features">
 
-##### Features
-
--   [`34143ca`](https://github.com/stdlib-js/stdlib/commit/34143ca1593005de81ef30c9a48dc476a63c31b5) - add `ModuleWrapper` to namespace
--   [`7ea0700`](https://github.com/stdlib-js/stdlib/commit/7ea0700f3f0d873e5d7d65a7f5585169d7854c83) - add `base` to namespace
--   [`cf538c1`](https://github.com/stdlib-js/stdlib/commit/cf538c16dc5717bf1865148442ca1f30f93bb258) - add namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-v0.1.0">
-
-#### [@stdlib/wasm/base](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base)
-
-<details>
-
-<section class="features">
-
-##### Features
+### Features
 
 -   [`db91373`](https://github.com/stdlib-js/stdlib/commit/db91373ac57c11965c341e4d802aed5ee3e470bd) - add `strided2object` to namespace
+-   [`ca7b037`](https://github.com/stdlib-js/stdlib/commit/ca7b0375bac4ab292d93081e94e8e51a637ba64d) - add `wasm/base/strided2object`
+-   [`34143ca`](https://github.com/stdlib-js/stdlib/commit/34143ca1593005de81ef30c9a48dc476a63c31b5) - add `ModuleWrapper` to namespace
+-   [`e7508aa`](https://github.com/stdlib-js/stdlib/commit/e7508aa936ebfd9e70f0b80e19a7da76d2c0515f) - add a WIP `wasm/module-wrapper` package
+-   [`7ea0700`](https://github.com/stdlib-js/stdlib/commit/7ea0700f3f0d873e5d7d65a7f5585169d7854c83) - add `base` to namespace
 -   [`0d49560`](https://github.com/stdlib-js/stdlib/commit/0d49560dc69e5baa1e154ef5246ced6689d8fbff) - add `wasm/base` namespace
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-array2dtype-v0.1.0">
-
-#### [@stdlib/wasm/base/array2dtype](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/array2dtype)
-
-<details>
-
-<section class="features">
-
-##### Features
-
+-   [`be28c74`](https://github.com/stdlib-js/stdlib/commit/be28c74db2fee7929fbaa01487d615f860be645b) - add `wasm/base/arrays2ptrs`
 -   [`e799140`](https://github.com/stdlib-js/stdlib/commit/e799140f66eee9b9bd4508c7215f49d2e58c0e78) - add `wasm/base/array2dtype`
+-   [`f57bee2`](https://github.com/stdlib-js/stdlib/commit/f57bee2b4155d60bd0f3a8f0ca5103f30d34d842) - add `wasm/base/dtype2wasm`
+-   [`cf538c1`](https://github.com/stdlib-js/stdlib/commit/cf538c16dc5717bf1865148442ca1f30f93bb258) - add namespace
+-   [`67ac388`](https://github.com/stdlib-js/stdlib/commit/67ac38817706780d7e842aa71482ca5e3f585572) - add `wasm/memory`
 
 </section>
 
@@ -208,146 +99,13 @@ No changes reported for this release.
 
 <section class="bug-fixes">
 
-##### Bug Fixes
+### Bug Fixes
 
 -   [`6065197`](https://github.com/stdlib-js/stdlib/commit/6065197c84ea621bd2c0fe0028d6349275e8d044) - update package name
 
 </section>
 
 <!-- /.bug-fixes -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-arrays2ptrs-v0.1.0">
-
-#### [@stdlib/wasm/base/arrays2ptrs](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/arrays2ptrs)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`be28c74`](https://github.com/stdlib-js/stdlib/commit/be28c74db2fee7929fbaa01487d615f860be645b) - add `wasm/base/arrays2ptrs`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-dtype2wasm-v0.1.0">
-
-#### [@stdlib/wasm/base/dtype2wasm](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/dtype2wasm)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`f57bee2`](https://github.com/stdlib-js/stdlib/commit/f57bee2b4155d60bd0f3a8f0ca5103f30d34d842) - add `wasm/base/dtype2wasm`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-base-strided2object-v0.1.0">
-
-#### [@stdlib/wasm/base/strided2object](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/base/strided2object)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`ca7b037`](https://github.com/stdlib-js/stdlib/commit/ca7b0375bac4ab292d93081e94e8e51a637ba64d) - add `wasm/base/strided2object`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-memory-v0.1.0">
-
-#### [@stdlib/wasm/memory](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/memory)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`67ac388`](https://github.com/stdlib-js/stdlib/commit/67ac38817706780d7e842aa71482ca5e3f585572) - add `wasm/memory`
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-<section class="package" id="wasm-module-wrapper-v0.1.0">
-
-#### [@stdlib/wasm/module-wrapper](https://github.com/stdlib-js/stdlib/tree/develop/lib/node_modules/%40stdlib/wasm/module-wrapper)
-
-<details>
-
-<section class="features">
-
-##### Features
-
--   [`e7508aa`](https://github.com/stdlib-js/stdlib/commit/e7508aa936ebfd9e70f0b80e19a7da76d2c0515f) - add a WIP `wasm/module-wrapper` package
-
-</section>
-
-<!-- /.features -->
-
-</details>
-
-</section>
-
-<!-- /.package -->
-
-</section>
-
-<!-- /.packages -->
-
-<section class="contributors">
-
-### Contributors
-
-A total of 2 people contributed to this release. Thank you to the following contributors:
-
--   Athan Reines
--   Philipp Burckhardt
-
-</section>
-
-<!-- /.contributors -->
 
 <section class="commits">
 
@@ -382,6 +140,19 @@ A total of 2 people contributed to this release. Thank you to the following cont
 </section>
 
 <!-- /.commits -->
+
+<section class="contributors">
+
+### Contributors
+
+A total of 2 people contributed to this release. Thank you to the following contributors:
+
+-   Athan Reines
+-   Philipp Burckhardt
+
+</section>
+
+<!-- /.contributors -->
 
 </section>
 
