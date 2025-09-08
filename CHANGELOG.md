@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2025-06-26)
+## Unreleased (2025-09-08)
 
 <section class="features">
 
@@ -35,6 +35,8 @@
 
 <details>
 
+-   [`f344466`](https://github.com/stdlib-js/stdlib/commit/f344466c6dcfb8f52d7f3148acaadd52772938da) - **test:** use .strictEqual() instead of .equal() and fix lint errors _(by Philipp Burckhardt)_
+-   [`153c9c1`](https://github.com/stdlib-js/stdlib/commit/153c9c19e7e5bc138e18500cea598365d6df55d8) - **style:** fix indentation in JSON files _(by Philipp Burckhardt)_
 -   [`c1e2833`](https://github.com/stdlib-js/stdlib/commit/c1e28334d789719eb9910e66e5237ed526179747) - **refactor:** use types defined in `wasm/types` _(by Athan Reines)_
 -   [`375104a`](https://github.com/stdlib-js/stdlib/commit/375104a14f1108d70a4c41972ed0502b84b5c124) - **feat:** add `wasm/types` _(by Athan Reines)_
 -   [`b6a2b0b`](https://github.com/stdlib-js/stdlib/commit/b6a2b0b27dc8cc1e9fc02d9679a3ce468cf49b9d) - **docs:** update namespace table of contents [(#3192)](https://github.com/stdlib-js/stdlib/pull/3192) _(by stdlib-bot, Philipp Burckhardt)_
