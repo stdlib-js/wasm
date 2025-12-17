@@ -21,14 +21,13 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var Memory = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s::constructor', pkg ), function benchmark( b ) {
+bench( pkg+'::constructor', function benchmark( b ) {
 	var mem;
 	var i;
 

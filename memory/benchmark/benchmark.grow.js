@@ -22,14 +22,13 @@
 
 var bench = require( '@stdlib/bench' );
 var isNonNegativeInteger = require( '@stdlib/assert/is-nonnegative-integer' ).isPrimitive;
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var Memory = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s:grow', pkg ), function benchmark( b ) {
+bench( pkg+':grow', function benchmark( b ) {
 	var opts;
 	var mem;
 	var v;

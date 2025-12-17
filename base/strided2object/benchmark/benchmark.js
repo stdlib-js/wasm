@@ -24,14 +24,13 @@ var bench = require( '@stdlib/bench' );
 var Float64Array = require( '@stdlib/array/float64' );
 var zeros = require( '@stdlib/array/base/zeros' );
 var isCollection = require( '@stdlib/assert/is-collection' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var strided2object = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s::array', pkg ), function benchmark( b ) {
+bench( pkg+'::array', function benchmark( b ) {
 	var values;
 	var out;
 	var i;
@@ -57,7 +56,7 @@ bench( format( '%s::array', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::typed_array', pkg ), function benchmark( b ) {
+bench( pkg+'::typed_array', function benchmark( b ) {
 	var values;
 	var out;
 	var i;
@@ -83,7 +82,7 @@ bench( format( '%s::typed_array', pkg ), function benchmark( b ) {
 	b.end();
 });
 
-bench( format( '%s::array_like', pkg ), function benchmark( b ) {
+bench( pkg+'::array_like', function benchmark( b ) {
 	var arr;
 	var out;
 	var i;

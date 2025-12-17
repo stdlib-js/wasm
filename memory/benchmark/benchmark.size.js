@@ -21,7 +21,6 @@
 // MODULES //
 
 var bench = require( '@stdlib/bench' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var Memory = require( './../lib' );
 
@@ -85,7 +84,7 @@ function main() {
 
 	for ( i = min; i <= max; i++ ) {
 		f = createBenchmark( i );
-		bench( format( '%s:initial=%d', pkg, i ), f );
+		bench( pkg+':initial='+i, f );
 	}
 }
 

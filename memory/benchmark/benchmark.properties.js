@@ -22,14 +22,13 @@
 
 var bench = require( '@stdlib/bench' );
 var isArrayBuffer = require( '@stdlib/assert/is-arraybuffer' );
-var format = require( '@stdlib/string/format' );
 var pkg = require( './../package.json' ).name;
 var Memory = require( './../lib' );
 
 
 // MAIN //
 
-bench( format( '%s::get:buffer', pkg ), function benchmark( b ) {
+bench( pkg+'::get:buffer', function benchmark( b ) {
 	var mem;
 	var v;
 	var i;
