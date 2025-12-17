@@ -35,6 +35,8 @@
 
 <details>
 
+-   [`010699d`](https://github.com/stdlib-js/stdlib/commit/010699d29a9d4630420a6c065d3e12ddba05db07) - **bench:** refactor to use string interpolation in `wasm/base/strided2object` [(#9152)](https://github.com/stdlib-js/stdlib/pull/9152) _(by piyxsh31)_
+-   [`f314761`](https://github.com/stdlib-js/stdlib/commit/f314761ccc0ec72f702d352a9e19ef2e0da7aaaa) - **bench:** refactor to use string interpolation in `wasm/base/arrays2ptrs` [(#9121)](https://github.com/stdlib-js/stdlib/pull/9121) _(by piyxsh31)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
 -   [`818054a`](https://github.com/stdlib-js/stdlib/commit/818054a494c75b6cdbc7b9e33891a5e08f2c8031) - **docs:** fix TSDoc return annotation values and example code _(by Philipp Burckhardt)_
 -   [`7f55434`](https://github.com/stdlib-js/stdlib/commit/7f554349e50fc601e7ab4206ba1da0eceae93518) - **docs:** fix TSDoc comments example code and return annotation values _(by Philipp Burckhardt)_
@@ -55,10 +57,11 @@
 
 ### Contributors
 
-A total of 2 people contributed to this release. Thank you to the following contributors:
+A total of 3 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   piyxsh31
 
 </section>
 
