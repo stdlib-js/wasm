@@ -35,6 +35,7 @@
 
 <details>
 
+-   [`90d23b4`](https://github.com/stdlib-js/stdlib/commit/90d23b4d6ca9fd25d98eb748d0f6f9e5412a45b9) - **bench:** refactor to use string interpolation in `wasm/memory` [(#9154)](https://github.com/stdlib-js/stdlib/pull/9154) _(by piyxsh31, Athan Reines)_
 -   [`010699d`](https://github.com/stdlib-js/stdlib/commit/010699d29a9d4630420a6c065d3e12ddba05db07) - **bench:** refactor to use string interpolation in `wasm/base/strided2object` [(#9152)](https://github.com/stdlib-js/stdlib/pull/9152) _(by piyxsh31)_
 -   [`f314761`](https://github.com/stdlib-js/stdlib/commit/f314761ccc0ec72f702d352a9e19ef2e0da7aaaa) - **bench:** refactor to use string interpolation in `wasm/base/arrays2ptrs` [(#9121)](https://github.com/stdlib-js/stdlib/pull/9121) _(by piyxsh31)_
 -   [`88fe77a`](https://github.com/stdlib-js/stdlib/commit/88fe77a2f059149b803f51d1a787894c7670798b) - **docs:** fix example code in namespace TypeScript declarations _(by Philipp Burckhardt)_
