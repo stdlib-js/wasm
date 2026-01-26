@@ -450,7 +450,7 @@ setReadOnly( WasmModule.prototype, 'write', function write( byteOffset, values )
 * @throws {RangeError} output array exceeds module memory
 * @returns {WasmModule} wrapper instance
 */
-setReadOnly( WasmModule.prototype, 'read', function write( byteOffset, out ) {
+setReadOnly( WasmModule.prototype, 'read', function read( byteOffset, out ) {
 	var nb;
 	if ( this._memory === null ) {
 		throw new Error( 'invalid invocation. Unable to perform read operation, as the WebAssembly module is not bound to an underlying WebAssembly memory instance.' );

@@ -45,6 +45,7 @@
 
 <details>
 
+-   [`65aa64a`](https://github.com/stdlib-js/stdlib/commit/65aa64a2f860129b3ca2f09f47641e4355303799) - **chore:** minor clean-up _(by Philipp Burckhardt)_
 -   [`a1443d1`](https://github.com/stdlib-js/stdlib/commit/a1443d1b397d7a15382692e3ba76ecdd19fcfeff) - **fix:** use correct `WebAssembly.instantiate` callback signature in `wasm/module-wrapper` [(#9720)](https://github.com/stdlib-js/stdlib/pull/9720) _(by Shivam Mittal, Athan Reines)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`90d23b4`](https://github.com/stdlib-js/stdlib/commit/90d23b4d6ca9fd25d98eb748d0f6f9e5412a45b9) - **bench:** refactor to use string interpolation in `wasm/memory` [(#9154)](https://github.com/stdlib-js/stdlib/pull/9154) _(by piyxsh31, Athan Reines)_
