@@ -4,7 +4,7 @@
 
 <section class="release" id="unreleased">
 
-## Unreleased (2026-01-10)
+## Unreleased (2026-01-26)
 
 <section class="features">
 
@@ -16,6 +16,16 @@
 </section>
 
 <!-- /.features -->
+
+<section class="bug-fixes">
+
+### Bug Fixes
+
+-   [`a1443d1`](https://github.com/stdlib-js/stdlib/commit/a1443d1b397d7a15382692e3ba76ecdd19fcfeff) - use correct `WebAssembly.instantiate` callback signature in `wasm/module-wrapper` [(#9720)](https://github.com/stdlib-js/stdlib/pull/9720)
+
+</section>
+
+<!-- /.bug-fixes -->
 
 <section class="breaking-changes">
 
@@ -35,6 +45,7 @@
 
 <details>
 
+-   [`a1443d1`](https://github.com/stdlib-js/stdlib/commit/a1443d1b397d7a15382692e3ba76ecdd19fcfeff) - **fix:** use correct `WebAssembly.instantiate` callback signature in `wasm/module-wrapper` [(#9720)](https://github.com/stdlib-js/stdlib/pull/9720) _(by Shivam Mittal, Athan Reines)_
 -   [`bfc8c3a`](https://github.com/stdlib-js/stdlib/commit/bfc8c3a7bcebf1a049c9e457ab440f540fd5c7a9) - **chore:** use one asterisk for license comment in TS files _(by Philipp Burckhardt)_
 -   [`90d23b4`](https://github.com/stdlib-js/stdlib/commit/90d23b4d6ca9fd25d98eb748d0f6f9e5412a45b9) - **bench:** refactor to use string interpolation in `wasm/memory` [(#9154)](https://github.com/stdlib-js/stdlib/pull/9154) _(by piyxsh31, Athan Reines)_
 -   [`010699d`](https://github.com/stdlib-js/stdlib/commit/010699d29a9d4630420a6c065d3e12ddba05db07) - **bench:** refactor to use string interpolation in `wasm/base/strided2object` [(#9152)](https://github.com/stdlib-js/stdlib/pull/9152) _(by piyxsh31)_
@@ -59,10 +70,11 @@
 
 ### Contributors
 
-A total of 3 people contributed to this release. Thank you to the following contributors:
+A total of 4 people contributed to this release. Thank you to the following contributors:
 
 -   Athan Reines
 -   Philipp Burckhardt
+-   Shivam Mittal
 -   piyxsh31
 
 </section>
